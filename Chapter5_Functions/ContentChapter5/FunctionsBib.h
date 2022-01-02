@@ -1,3 +1,7 @@
+#ifndef FUNCTIONBIB_H
+#define FUNCTIONBIB_H
+ 
+
 // Return Type: void
 // Name: printEvenOrOdd
 // Parameters: int number
@@ -27,3 +31,5 @@ float mean(int number_a, int number_b);
 // Name: factorial
 // Parameters: unsigned int i
 unsigned int factorial(unsigned int i);
+
+#endif

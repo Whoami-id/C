@@ -1,48 +1,16 @@
-# Ignore all
-*
-# Unignore all with extensions
-!*.*
-!*.txt
-TODO.txt
-valgrind-out.txt
-**/*/.vscode/
-launch.json
-# Unignore all dirs
-!*/
+################################
+###########  FILES  ############
+################################
+TODO*.*
+*.pptx
 *.pdf
-settings.json
-c_cpp_properties.json
-launch.json
-!Makefile
-build/
-Debug/
-Release/
-!LICENSE
-
-.vscode/c_cpp_properties.json
-*/c_cpp_properties.json
-*.png
-*.out
-*.zip
-*.vcxproj
-*.vcxproj.filters
-*.obj
-*.o
-*.exe
-*.out
-*.pro
-*.sln
-*.bmp
-*.ui
-*.stackdump
 
 ################################
 ########### FOLDERS ############
 ################################
-# directories
 build/
 html/
-latex/
+lectures/
 
 ################################
 ############ C/C++ #############
@@ -54,6 +22,8 @@ latex/
 *.lo
 *.o
 *.obj
+*.ko
+*.elf
 # Precompiled Headers
 *.gch
 *.pch
@@ -70,41 +40,17 @@ latex/
 *.a
 *.lib
 # Executables
+*.i*86
+*.x86_64
+*.hex
+*.app
+*.stackdump
 *.exe
 *.out
-*.app
-##### C
-# Prerequisites
-*.d
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 # Linker output
 *.ilk
 *.map
 *.exp
-# Precompiled Headers
-*.gch
-*.pch
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 # Debug files
 *.dSYM/
 *.su
@@ -114,19 +60,27 @@ latex/
 ################################
 ########### VS CODE ############
 ################################
+.vscode
 *.code-workspace
-.history/
-*.zip
+.history
 
 ################################
-######## VISUAL STUDIO #########
+###########   VS    ############
 ################################
+
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -134,16 +88,21 @@ latex/
 [Rr]eleases/
 x64/
 x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
 # Files built by Visual Studio
 *_i.c
 *_p.c
 *_h.h
-*.ilk
 *.meta
-*.obj
 *.iobj
-*.pch
-*.pdb
 *.ipdb
 *.pgc
 *.pgd
@@ -156,14 +115,17 @@ x86/
 *.tmp_proj
 *_wpftmp.csproj
 *.log
+*.tlog
 *.vspscc
 *.vssscc
 .builds
 *.pidb
 *.svclog
 *.scc
+
 # Chutzpah Test files
 _Chutzpah*
+
 # Visual C++ cache files
 ipch/
 *.aps
@@ -174,10 +136,12 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+
 # Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
 *.sap
+
 # Visual Studio Trace Files
 *.e2e

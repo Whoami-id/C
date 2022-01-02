@@ -5,12 +5,7 @@
 
 int main()
 {
-    /*
-    Lege ein Array mit max. 1000 Speicherblöccken an.
-    Lese vom User solange Integer-Werte für das Array ein, bis der User eine
-    Zahl <= 0 eingibt. Somit liegen im Array nur positive Werte vor.
-    Berechne danach von den Array Werten das Minimum und Maximum.
-    */
+   
 
     int data[1000] = { 0 };
 

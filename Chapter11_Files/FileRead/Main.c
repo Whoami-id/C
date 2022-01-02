@@ -6,7 +6,7 @@
 
 int main()
 {
-    char path[] = "C:/Users/schaf/Dropbox/_Coding/UdemyC/Chapter11_Files/FileRead/InputData.txt";
+    char path[] = "C:/Users/schaf/Dropbox/_Coding/FileRead/InputData.txt";
     // read=r, write=w
     FILE *fp = fopen(path, "r");
 
