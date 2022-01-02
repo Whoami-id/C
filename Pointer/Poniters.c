@@ -8,12 +8,13 @@ int main(){
     int *p;
     p = &a;
 
-   *p = 23;
+
 
 
     printf("%d\n", p);
     printf("%d\n", *p);
     printf("%d\n", &a);
+
 
 
 
